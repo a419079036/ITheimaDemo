@@ -23,8 +23,8 @@ public class AccountProviers extends ContentProvider
     //静态代码块,添加匹配规则,在类加载时就加载,而且只加载一次
     static
     {
-        sURIMatcher.addURI("com.lrrh.liu","query",QUERYSUCESS);
-
+        sURIMatcher.addURI("com.lrrh.liu","query",QUERYSUCESS);//修改
+       //1233432432432
     }
 
     private MyopenDataHelper myopenDataHelper;
